@@ -1,0 +1,10 @@
+llm:
+  model: "models/deepseek-llm-7b-chat.Q4_K_M.gguf"
+  host: "127.0.0.1"
+  port: 8001
+
+rag:
+  collection_name: "docs"
+  embedder_model: "all-MiniLM-L6-v2"
+  chunk_size: 800
+  max_tokens: 256
